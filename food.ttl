@@ -1,0 +1,98 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix certification: <http://www.metaphacts.com/resource/certification/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix sp: <http://spinrdf.org/sp#> .
+
+<https://vocabularies.metaphacts.com/food> a skos:ConceptScheme;
+  rdfs:label "Food"@en;
+  dct:creator "certificationuser";
+  dct:title "Food"@en;
+  skos:prefLabel "Food"@en;
+  <http://www.linkedmodel.org/1.2/schema/vaem#namespace> <https://vocabularies.metaphacts.com/food/>;
+  <http://open-services.net/ns/core#modifiedBy> "certificationuser";
+  dct:contributor "certificationuser";
+  dct:created "2024-11-04T04:29:00.032Z"^^xsd:dateTime;
+  dct:modified "2024-11-04T04:39:51.504Z"^^xsd:dateTime;
+  skos:hasTopConcept <https://vocabularies.metaphacts.com/food/91b200ad-d697-4884-9810-e393d13b3703> .
+
+<https://vocabularies.metaphacts.com/food/91b200ad-d697-4884-9810-e393d13b3703> a
+    skos:Concept;
+  dct:creator "certificationuser";
+  skos:prefLabel "Vegetable"@en;
+  <http://open-services.net/ns/core#modifiedBy> "certificationuser";
+  dct:contributor "certificationuser";
+  dct:created "2024-11-04T04:29:28.018Z"^^xsd:dateTime;
+  dct:modified "2024-11-04T04:29:28.018Z"^^xsd:dateTime;
+  skos:inScheme <https://vocabularies.metaphacts.com/food> .
+
+<https://vocabularies.metaphacts.com/food/5297af2b-8a9d-47ba-b648-3ab0eaa02f77> a
+    skos:Concept;
+  dct:creator "certificationuser";
+  skos:prefLabel "Bean"@en;
+  <http://open-services.net/ns/core#modifiedBy> "certificationuser";
+  dct:contributor "certificationuser";
+  dct:created "2024-11-04T04:29:43.510Z"^^xsd:dateTime;
+  dct:modified "2024-11-04T04:36:36.231Z"^^xsd:dateTime;
+  skos:inScheme <https://vocabularies.metaphacts.com/food>;
+  skos:broader <https://vocabularies.metaphacts.com/food/91b200ad-d697-4884-9810-e393d13b3703>;
+  skos:altLabel "Bohne"@en .
+
+<https://vocabularies.metaphacts.com/food/5b1e0c51-b7e5-4808-916d-9fcf12920fda> a
+    skos:Concept;
+  dct:creator "certificationuser";
+  skos:prefLabel "Root"@en;
+  <http://open-services.net/ns/core#modifiedBy> "certificationuser";
+  dct:contributor "certificationuser";
+  dct:created "2024-11-04T04:30:17.010Z"^^xsd:dateTime;
+  dct:modified "2024-11-04T04:30:17.010Z"^^xsd:dateTime;
+  skos:inScheme <https://vocabularies.metaphacts.com/food>;
+  skos:broader <https://vocabularies.metaphacts.com/food/91b200ad-d697-4884-9810-e393d13b3703> .
+
+<https://vocabularies.metaphacts.com/food/921b3a6f-57dd-439f-a32b-12be31a569b8> a
+    skos:Concept;
+  dct:creator "certificationuser";
+  skos:prefLabel "Fava beans";
+  <http://open-services.net/ns/core#modifiedBy> "certificationuser";
+  dct:contributor "certificationuser";
+  dct:created "2024-11-04T04:32:56.068Z"^^xsd:dateTime;
+  dct:modified "2024-11-04T04:32:56.068Z"^^xsd:dateTime;
+  skos:inScheme <https://vocabularies.metaphacts.com/food>;
+  skos:broader <https://vocabularies.metaphacts.com/food/5297af2b-8a9d-47ba-b648-3ab0eaa02f77> .
+
+<https://vocabularies.metaphacts.com/food/9ea516ac-b711-4430-952b-ed425bae7865> a
+    skos:Concept;
+  dct:creator "certificationuser";
+  skos:prefLabel "Green beans";
+  <http://open-services.net/ns/core#modifiedBy> "certificationuser";
+  dct:contributor "certificationuser";
+  dct:created "2024-11-04T04:32:56.068Z"^^xsd:dateTime;
+  dct:modified "2024-11-04T04:32:56.068Z"^^xsd:dateTime;
+  skos:inScheme <https://vocabularies.metaphacts.com/food>;
+  skos:broader <https://vocabularies.metaphacts.com/food/5297af2b-8a9d-47ba-b648-3ab0eaa02f77> .
+
+<https://vocabularies.metaphacts.com/food/f4bcd441-29cb-4390-b88b-0b50fe0728f7> a
+    skos:Concept;
+  dct:creator "certificationuser";
+  skos:prefLabel "Potato";
+  <http://open-services.net/ns/core#modifiedBy> "certificationuser";
+  dct:contributor "certificationuser";
+  dct:created "2024-11-04T04:33:15.194Z"^^xsd:dateTime;
+  dct:modified "2024-11-04T04:33:15.194Z"^^xsd:dateTime;
+  skos:inScheme <https://vocabularies.metaphacts.com/food>;
+  skos:broader <https://vocabularies.metaphacts.com/food/5b1e0c51-b7e5-4808-916d-9fcf12920fda> .
+
+<https://vocabularies.metaphacts.com/food/969e865c-29d8-44ca-816f-88e7afb01e38> a
+    skos:Concept;
+  dct:creator "certificationuser";
+  skos:prefLabel "Carrot";
+  <http://open-services.net/ns/core#modifiedBy> "certificationuser";
+  dct:contributor "certificationuser";
+  dct:created "2024-11-04T04:33:15.194Z"^^xsd:dateTime;
+  dct:modified "2024-11-04T04:33:15.194Z"^^xsd:dateTime;
+  skos:inScheme <https://vocabularies.metaphacts.com/food>;
+  skos:broader <https://vocabularies.metaphacts.com/food/5b1e0c51-b7e5-4808-916d-9fcf12920fda> .
