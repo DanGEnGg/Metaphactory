@@ -40,7 +40,7 @@
   dct:modified "2024-11-04T04:36:36.231Z"^^xsd:dateTime;
   skos:inScheme <https://vocabularies.metaphacts.com/food>;
   skos:broader <https://vocabularies.metaphacts.com/food/91b200ad-d697-4884-9810-e393d13b3703>;
-  skos:altLabel "Bohne"@en .
+  skos:altLabel "Bohne"@de .
 
 <https://vocabularies.metaphacts.com/food/5b1e0c51-b7e5-4808-916d-9fcf12920fda> a
     skos:Concept;
